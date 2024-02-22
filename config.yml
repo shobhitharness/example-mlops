@@ -1,0 +1,11 @@
+modeling:
+  outcome : target
+  tree_method: 'hist'
+  
+optuna:
+  n_trials : 12
+  model_file_name : 'xbg_model.joblib'
+  
+mlflow:
+  experiment_name : 'Example MLOps'
+  run_name : 'Initial Model'

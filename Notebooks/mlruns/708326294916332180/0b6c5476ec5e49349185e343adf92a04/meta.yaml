@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/shobhitverma/python/example-mlops/example-mlops/Notebooks/mlruns/708326294916332180/0b6c5476ec5e49349185e343adf92a04/artifacts
+end_time: 1708637471091
+entry_point_name: ''
+experiment_id: '708326294916332180'
+lifecycle_stage: active
+run_id: 0b6c5476ec5e49349185e343adf92a04
+run_name: Initial Model
+run_uuid: 0b6c5476ec5e49349185e343adf92a04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708637357417
+status: 3
+tags: []
+user_id: shobhitverma
