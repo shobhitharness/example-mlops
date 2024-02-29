@@ -1,3 +1,4 @@
-/Notebooks/mlruns/*
-/Notebooks/.ipynb_checkpoints/*.*
-/Notebooks/*.jpg
+mlruns/*
+.ipynb_checkpoints/*.*
+*.jpg
+*.joblib
