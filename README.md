@@ -1,4 +1,3 @@
 # example-mlops
 Example to use MLOps on Harness
-
-pytest --nbval-lax Notebooks/training_example.ipynb --junitxml=Notebooks/report.xml
+RUN pytest --nbval-lax credit_card_approval.ipynb --junitxml=report.xml
