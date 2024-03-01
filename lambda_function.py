@@ -9,9 +9,11 @@ import numpy as np
 model = joblib.load("selected_model.joblib")  # Assuming the model is stored in the Lambda at the same level
 
 def lambda_handler(event, context):
-    print(event, '/n', context,'n')
+    #print('\n', event, '\n event body\n' ,event['body'], '\n end event body \n', context,'\n')
+    #print(event)
+    #print(event['Own_Car'])
     # Parse the incoming JSON payload
-    data = json.loads(event)
+    data = event #json.loads(event['body'])
     
     # The input features must be in the correct order expected by the model.
     # ['Num_Children', 'Income', 'Own_Car', 'Own_Housing']
